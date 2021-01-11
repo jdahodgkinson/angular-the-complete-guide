@@ -1,0 +1,11 @@
+<button
+  class="btn btn-primary"
+  (click)="toggleParagraph()">
+  Display Details
+</button>
+<p *ngIf="paragraphVisible">Here is my secret paragraph...</p>
+<p
+  *ngFor="let timestamp of timestamps; let i = index"
+  [ngClass]="{after5: i >= 4}">
+  {{ timestamp }}
+</p>

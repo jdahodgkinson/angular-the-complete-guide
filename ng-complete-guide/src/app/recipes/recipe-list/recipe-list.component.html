@@ -1,1 +1,25 @@
-<p>recipe-list works!</p>
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success">New Recipe</button>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <!-- Introduce ngFor here! -->
+    <a href="#" class="list-group-item clearfix">
+      <div class="pull-left">
+        <h4 class="list-group-item-heading">Beef Wellington</h4>
+        <p class="list-group-item-text">Delicious!</p>
+        <span class="pull-right">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Beef_Wellington_2019.jpg"
+               alt=""
+               class="img-responsive"
+               style="max-height: 50px">
+        </span>
+      </div>
+    </a>
+    <!-- Stop ngFor here! -->
+    <app-recipe-item></app-recipe-item>
+  </div>
+</div>

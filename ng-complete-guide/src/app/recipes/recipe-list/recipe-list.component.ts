@@ -12,6 +12,11 @@ export class RecipeListComponent implements OnInit {
       'Beef Wellington',
       'Delicious',
       'https://upload.wikimedia.org/wikipedia/commons/a/a9/Beef_Wellington_2019.jpg'
+    ),
+    new Recipe(
+      'Beef Wellington',
+      'Delicious',
+      'https://upload.wikimedia.org/wikipedia/commons/a/a9/Beef_Wellington_2019.jpg'
     )
   ];
 

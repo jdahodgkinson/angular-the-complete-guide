@@ -15,3 +15,11 @@
     </div>
   </div>
 </div>
+<hr>
+<div class="container">
+  <app-game-control (numberEmitter)="addNumber($event)"></app-game-control>
+  <div *ngFor="let n of this.ns">
+    <app-odd *ngIf="n % 2 === 1" [n]="n"></app-odd>
+    <app-even *ngIf="n % 2 === 0" [n]="n"></app-even>
+  </div>
+</div>
